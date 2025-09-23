@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theater</title>
+    <link rel="stylesheet" href="./../Stylesheets/Theater.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <div id="header">
+        <p><img src="./../Images/Egybest logo.png" width="140px"></p>
+        <input id="searchBar" placeholder="Search movie, series, theater. 🔍">
+        <div id="liveSearch"></div>
+        <p id="resMessage"> Response Message</p>
+        <div id="userinfo">
+            <div id="userinfoCon">
+                <img src="./../Images/google.png" width="35px" height="35px">
+                <span id="username">Username</span>
+            </div>
+        </div>
+    </div>
+    <div id="bodyCon">
+    <div id="sideBar">
+
+        <div id="categories">
+            <ul id="categoriesUl">
+                <li id="action">
+                    🔥 Action
+                </li>
+                <li id="tragedy">
+                    😢 Tragedy
+                </li>
+                <li id="comedy">
+                    😂 Comedy
+                </li>
+                <li id="horror">
+                    😱 Horror
+                </li>
+            </ul>
+        </div>
+        
+        <div id="dashboard">
+            <ul>
+                <li id="saved">
+                    💗 Saved
+                </li>
+                <li id="watchLater">
+                    <div id="comingSoon">🚧 Coming Soon! 🚧</div>
+                    ⏳ Watch Later
+                </li>
+                <li id="explorer">
+                    🔍 Explorer!
+                </li>
+                <li id="movies">
+                    🎬 Movies
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sliders">
+        <div id="loader"></div>
+        <div class="sliderCon" id="movies" >
+            <p id="sliderTitle">Popular Movies</p>
+            <div id="slider1" class="slider">
+                
+            </div>
+        </div>
+
+        <div class="sliderCon" id="series">
+            <p id="sliderTitle">Popular Series</p>
+            <div id="slider2" class="slider">
+ 
+            </div>
+        </div>
+
+        <div class="sliderCon" id="theaters">
+            <p id="sliderTitle">Popular Theaters</p>
+            <div id="slider3" class="slider">
+               
+            </div>
+        </div>
+    </div>
+      
+    </div> <!-- Body Container -->
+
+    <!-- <div id="footer">
+        <p>&copy; 2023 EgyBest. All rights reserved.</p>
+    </div> -->
+    <script src="./../Scripts/Theater.js"></script>
+</body>
+</html>

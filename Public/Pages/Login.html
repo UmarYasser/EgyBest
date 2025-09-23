@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./../Stylesheets/Login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="bodyCon">
+
+        
+        <h2>Welcome Back to EgyBest❤</h2>
+        
+        <div id="container">
+            <form id="form">
+                
+                
+                <div class="formCon">
+                    <i class="fa-solid fa-xl fa-envelope" style="color:#f1baae"></i>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+                
+                <div class="formCon" id="passwordCon">
+                    <!-- <div id="passCon"> -->
+                        <i class="fa-solid fa-xl fa-lock" style="color:#f1baae"></i>
+                        <input type="password" id="password" name="password" placeholder="Password" required>
+                        <a id="showPassword">
+                            <i class="fa-solid fa-xl fa-eye" style="color:#f1baae"></i>
+                            <i class="fa-solid fa-xl fa-eye-slash" style="color:#f1baae;display:none"></i>
+                        </a>
+
+                    <!-- </div> -->
+                </div>
+
+                
+                <button type="submit" id="loginBtn">Login</button>
+                <div id="notFrom">
+                    <div class="formCon" style="text-align: center;">
+                        <i class="fa-solid fa-xl fa-plus" style="color:white"></i>
+                        <a href="/Signup.html">Don't have an account?</a>
+                    </div>
+                    <div class="formCon" style="text-align: center;">
+                        <i class="fa-solid fa-xl fa-question" style="color:white"></i> 
+                        <a href="#" id="forgotPassword">Forgot Password?</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+            <div id="OAuth">
+                <p>Or login with</p>
+                <button id="google">
+                    <img src="./../Images/google.png" width="30px"> Log in Using Google
+                </button>
+            </div>
+            <p id="resMessage"></p>
+    </div>
+    <script src="./../Scripts/Login.js"></script>
+</body>
+</html>
+
+
+<!--      /* --pal1: #A8BBA3;
+     --pal2: #F7F4EA;
+     --pal3:#EBD9D1;
+     --pal4: #B87C4C; */ -->
